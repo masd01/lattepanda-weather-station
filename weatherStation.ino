@@ -185,7 +185,6 @@ void drawDisplay() {
   display.setTextSize(1);
   display.setCursor(80, 36);
   display.println(receivedData.date2);
-  //display.print("     2025");
   
   // Άνεμος 
   display.setCursor(0, 55);
