@@ -14,7 +14,7 @@ SCL-SCL,
 GND-GND.
 
 1. very simple connection of oled ssd1306 to onboard arduino.
-2. be sure to have installed all necessary libraries as they are mentioned(included-imported) in the first lines of both .ino and .py files. Don't forget to change to your city in line 21 of python file 
+2. be sure to have installed all necessary libraries as they are mentioned(included-imported) in the first lines of both .ino and .py files. don't forget to change to your city in line 21 of python file 
 4. upload weatherStation.ino to onboard arduino.
 5. run weatherStation.py.
 
