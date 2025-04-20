@@ -18,7 +18,7 @@ print(f"IP: {my_ip}")
 async def get_weather():
     try:
         async with python_weather.Client(unit=python_weather.METRIC) as client:
-            weather = await asyncio.wait_for(client.get('Athens, Greece'), timeout=10.0)
+            weather = await asyncio.wait_for(client.get('Athens, Greece'), timeout=10.0) # change to your city 
             
             wind_dir = getattr(weather, 'wind_direction', None)
             wind_dir_str = getattr(wind_dir, 'name', None) if wind_dir else None
