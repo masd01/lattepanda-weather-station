@@ -1,4 +1,4 @@
-# lattepanda-weather-station-
+# lattepanda-weather-station
 Lattepanda weather station with oled ssd1306. Python script receive data from web and sends to onboard arduino leonardo to display in oled
 
 
