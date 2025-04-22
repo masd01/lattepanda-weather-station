@@ -24,7 +24,7 @@ async def get_weather():
             wind_dir_str = getattr(wind_dir, 'name', None) if wind_dir else None
             
             # Απλοποίηση κατάστασης καιρού για εικονίδια
-            weather_type = getattr(weather, 'type', '').upper()
+            weather_type = getattr(weather, 'description', '').upper()
             if "SUN" in weather_type or "CLEAR" in weather_type:
                 weather_icon = "SUN"
             elif "CLOUD" in weather_type:
