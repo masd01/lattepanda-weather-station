@@ -27,7 +27,7 @@ async def get_weather():
             weather_type = getattr(weather, 'description', '').upper()
             if "SUN" in weather_type or "CLEAR" in weather_type:
                 weather_icon = "SUN"
-            elif "CLOUD" in weather_type:
+            elif "CLOUD" in weather_type or "OVERCAST" in weather_type:
                 weather_icon = "CLOUD"
             elif "RAIN" in weather_type:
                 weather_icon = "RAIN"
