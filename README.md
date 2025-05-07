@@ -16,6 +16,6 @@ GND-GND.
 1. very simple connection of oled ssd1306 to onboard arduino.
 2. be sure to have installed all necessary libraries as they are mentioned(included-imported) in the first lines of both .ino and .py files. don't forget to change to your city in line 21 of python file 
 4. upload weatherStation.ino to onboard arduino.
-5. run weatherStation.py.
+5. run weatherStation.py. 
 
 ![Screenshot_2025-04-20-02-50-27-733_com miui gallery-edit](https://github.com/user-attachments/assets/85e6082d-ff59-42d9-a4d0-a13314a1a3db)
